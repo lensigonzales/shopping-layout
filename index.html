@@ -14,6 +14,7 @@
         <article class="product-card">
 
             <header class="header-container">
+                <div class="gradient-filter"></div>
                 <img src="/images/asics-sneaker.jpg" alt="Blue sneakers by Asics" class="product-img">
                 <p class="photo-credit">Photo by Maksim Larin</p>
                 <aside>
@@ -32,36 +33,43 @@
 
                 <section class="addtocart-container">
                     <p class="price">$65 USD</p>
-                    <label for="size" class="size-label label-color">Size:</label>
-                    <select name="size" id="size" class="size-select">
-                        <option value="37">37</option>
-                        <option value="38">38</option>
-                        <option value="39">39</option>
-                        <option value="40">40</option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                    </select>
-                    <label for="quantity" class="quantity-label label-color">Quantity</label>
-                    <select name="quantity" id="quantity" class="quantity-select">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
-                    <label for="color" class="color-label label-color">Color:</label>
-                    <div class="color-btn-container" id="color">
-                        <input type="radio" id="blue" class="color-input color-red">
-                        <input type="radio" id="red" class="color-input color-green">
-                        <input type="radio" id="black" class="color-input color-black">
+                    <div class="size-wrapper">
+                        <label for="size" class="size-label label">Size:</label>
+                        <select name="size" id="size" class="size-select">
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                        </select>
+                    </div>
+                    <div class="quantity-wrapper">
+                        <label for="quantity" class="quantity-label label">Quantity:</label>
+                        <select name="quantity" id="quantity" class="quantity-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="color-wrapper">
+                        <label for="color" class="color-label label">Color:</label>
+                        <input type="radio" id="blue" class="color-input">
+                        <label for="blue" class="color-label"><span class="blue"></span></label>
+                        <input type="radio" id="red" class="color-input">
+                        <label for="red" class="color-label"><span class="red"></span></label>
+                        <input type="radio" id="black" class="color-input">
+                        <label for="black" class="color-label"><span class="black"></span></label>
                     </div>
                     <button class="addtocart-btn">Add to Cart</button>
                 </section>
@@ -69,6 +77,7 @@
         </article>
         <article class="product-card">
             <header class="header-container">
+                <div class="gradient-filter"></div>
                 <img src="/images/adidas-sneaker.jpg" alt="White sneakers by Adidas" class="product-img">
                 <p class="photo-credit">Photo by Daniel Storek</p>
             </header>
@@ -82,33 +91,44 @@
                     mid kitten heel this ladylike...</p>
                 <section class="addtocart-container">
                     <p class="price">$30 USD</p>
-                    <label for="size" class="size-label label-color">Size:</label>
-                    <select name="size" id="size" class="size-select">
-                        <option value="37">37</option>
-                        <option value="38">38</option>
-                        <option value="39">39</option>
-                        <option value="40">40</option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                    </select>
-                    <label for="quantity" class="quantity-label label-color">Quantity</label>
-                    <select name="quantity" id="quantity" class="quantity-select">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
-                    <label for="color" class="color-label label-color">Color:</label>
-                    <input type="radio" id="color" class="color-input">
+                    <div class="size-wrapper">
+                        <label for="size" class="size-label label">Size:</label>
+                        <select name="size" id="size" class="size-select">
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                        </select>
+                    </div>
+                    <div class="quantity-wrapper">
+                        <label for="quantity" class="quantity-label label">Quantity:</label>
+                        <select name="quantity" id="quantity" class="quantity-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="color-wrapper">
+                        <label for="color" class="color-label label">Color:</label>
+                        <input type="radio" id="green-black" class="color-input">
+                        <label for="green-black" class="color-label"><span class="green-black"></span></label>
+                        <input type="radio" id="blue-black" class="color-input">
+                        <label for="blue-black" class="color-label"><span class="blue-black"></span></label>
+                        <input type="radio" id="pink-black" class="color-input">
+                        <label for="pink-black" class="color-label"><span class="pink-black"></span></label>
+                    </div>
                     <button class="addtocart-btn">Add to Cart</button>
                 </section>
 
@@ -116,6 +136,7 @@
         </article>
         <article class="product-card">
             <header class="header-container">
+                <div class="gradient-filter"></div>
                 <img src="/images/newbalance-sneaker.jpg" alt="Khaki sneakers by New Balance" class="product-img">
                 <p class="photo-credit">Photo by felipepelaquim</p>
                 <aside>
@@ -131,33 +152,43 @@
                     courts formal slingback square...</p>
                 <section class="addtocart-container">
                     <p class="price">$45 USD</p>
-                    <label for="size" class="size-label label-color">Size:</label>
-                    <select name="size" id="size" class="size-select">
-                        <option value="37">37</option>
-                        <option value="38">38</option>
-                        <option value="39">39</option>
-                        <option value="40">40</option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                    </select>
-                    <label for="quantity" class="quantity-label label-color">Quantity</label>
-                    <select name="quantity" id="quantity" class="quantity-select">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
-                    <label for="color" class="color-label label-color">Color:</label>
-                    <input type="radio" id="color" class="color-input">
+                    <div class="size-wrapper">
+                        <label for="size" class="size-label label">Size:</label>
+                        <select name="size" id="size" class="size-select">
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                        </select>
+                    </div>
+                    <div class="quantity-wrapper">
+                        <label for="quantity" class="quantity-label label">Quantity:</label>
+                        <select name="quantity" id="quantity" class="quantity-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="color-wrapper">
+                        <label for="color" class="label">Color:</label>
+
+                        <input type="radio" id="red-white" class="color-input">
+                        <label for="red-white" class="color-label"><span class="red-white"></span></label>
+                        <input type="radio" id="black-white" class="color-input">
+                        <label for="black-white" class="color-label"><span class="black-white"></span></label>
+                    </div>
                     <button class="addtocart-btn">Add to Cart</button>
                 </section>
             </section>
