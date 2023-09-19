@@ -141,13 +141,10 @@ body {
 
 .size-select,
 .quantity-select {
-  padding: 0.2rem;
+  padding: 0.5rem;
   margin-left: 0.5rem;
-}
-
-.size-select,
-.quantity-select {
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: solid rgb(240, 238, 238);
+  border-radius: 7px;
 }
 
 /*===== Color Picker Buttons =====*/
